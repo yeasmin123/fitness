@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+h1{
+    font-size: 40px;
+    margin-block-end: auto;
+    margin-top: 10px;
+    font-size: 100px;
+}
+h3{
+    font-size: 40px;
+    /* font-weight: 50; */
+    font-weight: bolder;
+    margin-block-end: auto;
+    letter-spacing: .8pc;
+    margin-top: 10px;
+}
+.icon-area{
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    width: 50%;
+    margin: left;
+}
+.icon-area ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+.icon-area ul li{
+    display: inline;
+}
+.icon-area ul li a{
+    box-shadow: 9px 5px 17px black;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-right: auto;
+    color: black;
+    border-radius: 6px;
+}
+.icon-area ul li a:hover{
+    transition: 2s;
+    color: blue;
+}
+.me{
+    margin-left: 42px;
+    padding: 20px 30px;
+    background-color: whitesmoke;
+    box-shadow: 9px 5px 17px black;
+    display: inline-block;
+    border-radius: 6px;
+}
+.me a{
+    text-decoration: none;
+}
